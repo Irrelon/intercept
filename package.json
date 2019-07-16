@@ -1,13 +1,13 @@
 {
   "name": "@irrelon/intercept",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=dev mocha ./tests/*.test.js"
   },
   "author": "Irrelon Software Limited",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "irrelon-path": "^2.0.4"
   },
