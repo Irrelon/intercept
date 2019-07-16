@@ -50,6 +50,9 @@ const restorer = intercept(testObj, "foo").replace(() => {
 // from the function we replaced it with
 const returnVal1 = testObj.foo();
 
+// Now restore the original
+restorer();
+
 // Call foo() a second time and we get the response
 // from the original foo() function of "foo"
 const returnVal2 = testObj.foo();
