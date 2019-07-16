@@ -1,6 +1,6 @@
 {
   "name": "@irrelon/intercept",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "Irrelon Software Limited",
   "license": "MIT",
   "dependencies": {
-    "irrelon-path": "^2.0.4"
+    "irrelon-path": "^2.0.5"
   },
   "private": false,
   "devDependencies": {
